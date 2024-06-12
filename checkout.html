@@ -2,11 +2,11 @@
 <html lang="pt-br">
 	<head>
 		<title>
-			X-Tudo Verdadeiro
+			hambugris legais :)
 		</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="assets/css/style hambugri.css">
+		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="icon" href="assets/imagens/logotipo1.png">
 	</head>
 	<body>
@@ -25,39 +25,50 @@
 				<hr/>
 			</nav>
 			<section>
-
+				<h1>
+					hambugris legais :)
+				</h1>
 			</section>
 		</header>
-		<div id="cardapio">
-			<div class="item">
-				<h2>
-					X-Tudo Verdadeiro
-				</h2>
-				<p class="preco">
-					R$4399,99
-				</p>
-				<img class="imglanche" src="assets/imagens/xtudo real.png"/>
-				<br/>
-				<br/>
-				<a href="checkout.html">
-					<button class="btncomprar">
-						Comprar
-					</button>
-				</a>
-				<br/>
-				<p class="preco">
-					Atenção!
-				</p>
-				<p>
-					Todos os dados colocados acima serão roubados e usados como eu achar melhor, para mais informações: 
-					<a href="roubo de dados.html">
-						<p>
-							Clique Aqui!
-						</p>
-					</a>
-				</p>
-			</div>
-		</div>
+		<form action="compra" method="post">
+			<label for="name">
+				Nome do cliente: 
+			</label>
+			<br/>
+			<input type="text" id="name">
+			<br/>
+			<label for="address">
+				Endereço: 
+			</label>
+			<br/>
+			<input type="text" id="address">
+			<br/>
+			<label for="tel">
+				Telefone: 
+			</label>
+			<br/>
+			<input type="text" id="tel">
+			<br/>
+			<label for="payment">
+				Forma de Pagamento: 
+			</label>
+			<br/>
+			<select id="payment" name="payment">
+				<option value="pix"> 
+					Pix
+				</option>
+				<option value="card"> 
+					Cartão
+				</option>
+			</select>
+		</form>
+		<br/>
+		<br/>
+		<a href="final.html">
+			<button class="btncomprar">
+				Comprar
+			</button>
+		</a>
 		<footer id="contato">
 			<div class="contatos">
 				<a href="#contato">
@@ -77,4 +88,9 @@
 			</div>
 		</footer>
 	</body>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 </html>
